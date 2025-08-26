@@ -95,7 +95,7 @@ Algoritmo Proyecto_1
 	
 	// ingrese el destino
 	
-	Escribir " Ingrese destino de envío "
+	Escribir " Ingrese destino de envï¿½o "
 	
 	Escribir "1.Nacional"
     Escribir "2.Internacional"
@@ -107,7 +107,7 @@ Algoritmo Proyecto_1
 	leer Peso
 	
 	
-	//Calculo final con costo de envío"
+	//Calculo final con costo de envï¿½o"
 	
 	Si opcion = "1.Nacional" Entonces
 		
@@ -115,11 +115,11 @@ Algoritmo Proyecto_1
 		
         Escribir "Destino elegido: ", opcion
 		
-        Escribir "Costo total a pagar con envío Nacional: ", i
+        Escribir "Costo total a pagar con envï¿½o Nacional: ", i
     Sino
 		i <- costoFijo + PrecioDescuento + (Peso * Cantidad)
 		
-        Escribir "Costo total a pagar con envío Internacional :", i
+        Escribir "Costo total a pagar con envï¿½o Internacional :", i
 		
     FinSi
 	
@@ -134,7 +134,7 @@ Algoritmo Proyecto_1
 	
 	Escribir  "Precio con descuentos aplicados :" PrecioDescuento
 	
-	Escribir  "Costos total de con  envío :" i
+	Escribir  "Costos total de con  envï¿½o :" i
 	
 	Escribir "---------------------------------------------------------------"
 	
@@ -142,4 +142,3 @@ Algoritmo Proyecto_1
 	
 
 FinAlgoritmo
-
